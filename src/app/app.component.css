@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+* {
+    font-family: 'Goldman', cursive;
+}
+
+/* HEADER */
+
+header {
+    background-color: #9980FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70px;
+}
+
+.header-text {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* MAIN */
+
+main {
+    padding: 50px 0;
+    background-color: #313638;
+    display: flex;
+    justify-content: center;
+}
+
+.card-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 340px;
+}
+
+.card-tipos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E9EB;
+    padding: 15px;
+    height: 270px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-subtitle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.item-nome {
+    font-size: 20px;
+}
+
+.card-button {
+    background-color: #9980FA;
+    border-color: #9980FA;
+}
+
+.card-button:hover {
+    background-color: #b3a1fc;
+    transition: 0.3s;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 10px 0;
+    background-color: #9980FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.footer-p1 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.footer-p2 {
+    margin-bottom: 8px;
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.result-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.versus {
+    font-size: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 480px) {
+    .card {
+        height: 160px;
+    }
+
+    main {
+        padding: 20px 0;
+    }
+    
+    header {
+        height: 50px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+  }
