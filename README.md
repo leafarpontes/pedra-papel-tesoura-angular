@@ -1,5 +1,8 @@
 # PedraPapelTesoura
 
+Confira o jogo online aqui:
+[https://pedra-papel-tesoura-angular.vercel.app](https://pedra-papel-tesoura-angular.vercel.app/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
 ## Development server
